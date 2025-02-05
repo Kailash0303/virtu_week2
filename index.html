@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to My Art Portfolio</h1>
+    <p>Discover creativity through stunning artwork.</p>
+    <button class="cta-button">Explore Gallery</button>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2 class="section-title">Gallery</h2>
+  
+     <!-- Personal Artwork -->
+  <div class="gallery-category">
+    <h3 class="category-title">Personal Artwork</h3>
+    <div class="gallery-grid">
+     
+      <div class="gallery-item"><img src="images/art2.jpg" alt="Personal Artwork 2"></div>
+      <div class="gallery-item"><img src="/images/art1.jpeg" alt="Personal Artwork 1"></div>
+      <div class="gallery-item"><img src="/images/art3.jpeg" alt="Personal Artwork 3"></div>
+      
+    </div>
+  </div>
+
+    <!-- Photography -->
+    <div class="gallery-category">
+        <h3 class="category-title">Photography</h3>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="/images/photo1.jpg" alt="Photography 1"></div>
+            <div class="gallery-item"><img src="/images/photo2.jpg" alt="Photography 2"></div>
+          <div class="gallery-item"><img src="/images/photo3.jpeg" alt="Photography 3"></div>
+         
+        </div>
+      </div>
+
+
+
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I’m an artist who loves to blend colors and imagination to craft breathtaking visuals. Enjoy exploring my portfolio!</p>
+    <p>Art, for me, is not just a medium of expression; it’s a language that transcends barriers and speaks to the soul. Thank you for visiting my portfolio—each piece here is a labor of love, and I’m thrilled to share it with you."
+
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+    <p id="feedback" class="feedback"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 My Portfolio | Crafted with 💖</p>
+  </footer>
+</body>
+</html>
